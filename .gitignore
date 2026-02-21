@@ -1,0 +1,16 @@
+# ===== DATA (NEVER COMMIT) =====
+data/raw/
+data/processed/
+*.csv
+
+# ===== OUTPUTS =====
+outputs/
+
+# ===== PYTHON JUNK =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ===== OS / EDITOR =====
+.DS_Store
+.vscode/
