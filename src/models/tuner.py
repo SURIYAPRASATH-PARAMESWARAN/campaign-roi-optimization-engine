@@ -1,8 +1,7 @@
 # src/bank_roi/models/tuner.py
 """Optuna-powered hyperparameter tuning for all four models.
 
-Why Optuna?
------------
+
 - Industry standard in 2026, replacing GridSearchCV/RandomizedSearchCV
 - Bayesian optimisation (TPE sampler) — smarter than random search
 - Native pruning — stops unpromising trials early (Hyperband pruner)
